@@ -44,7 +44,7 @@ const Pokemon: React.FC = () => {
             <h2 className={styles.card}>habilidades: {pokemon?.abilities.map(ability => ability.ability.name).join(' | ')}</h2>
             <h2 className={styles.card}>Tipos: {pokemon?.types.map(type => type.type.name).join(' | ')}</h2>
             <Link to='/'>
-                <button className={styles.button}>Voltarr</button>
+                <button className={styles.button}>Voltar</button>
             </Link>
         </div>
     )
