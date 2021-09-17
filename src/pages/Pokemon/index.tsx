@@ -33,6 +33,7 @@ const Pokemon: React.FC = () => {
 
     useEffect(() => {
         getInfoPokemon()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     return (
